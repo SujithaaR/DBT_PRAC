@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: STORE
+    database: INPUT
+    schema: STORE
+    tables:
+      - name: orders
+      - name: customer
+      - name: product
+      - name: shipping
+      - name: market
